@@ -9,6 +9,7 @@ import Promise from "../src/promise";
 describe("Promise", () => {
   it("是一个类", () => {
     assert.isFunction(Promise);
+    //类的特点：有propotype属性
     assert.isObject(Promise.prototype);
   });
   it("new Promise() 如果接受的不是一个函数就报错", () => {
